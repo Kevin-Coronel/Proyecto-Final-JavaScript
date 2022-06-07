@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch&family=Titillium+Web:wght@400;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.divLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divLogo img {
+  justify-items: center;
+  width: 220px;
+  height: 220px;
+}
+
+.h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding: 32px;
+}
+
+.ul {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 16px 0px 0px 0px;
+  margin: 0px;
+}
+
+.ul a {
+  color: black;
+  text-decoration: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.liNav {
+  padding: 12px;
+}
+
+.liNav:hover {
+  background-color: #FFF9C9;
+}
+
+a:hover {
+  color: black;
+}
+
+button:not(:disabled) {
+  color: white;
+  background-color: black;
+}
+
+footer {
+  padding-top: 22px;
+}
+
+.divFoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px;
+}
+
+.divFoot ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0rem 6rem 2rem 6rem;
+}
+
+.divFoot ul .liTit {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.divFoot ul li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+}
+
+.divFoot ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.divP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divP p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  margin: 16px;
+}
+
+main {
+  background-color: #f5eca99d;
+  margin: 32px 0px 32px 0px;
+  padding: 64px 0px 64px 0px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+  text-align: center;
+  position: relative;
+  left: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.banner img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: auto;
+  height: 500px;
+}
+
+.banner .centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #d4d0a9;
+  font-family: 'Smooch', cursive;
+  font-size: 55px;
+  -webkit-text-stroke: 1px black;
+}
+
+.titProd {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 32px;
+  margin-bottom: 64px;
+  text-decoration: underline;
+}
+
+.tarjD {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.divTarj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  list-style-type: none;
+  padding: 20px;
+  padding-bottom: 0px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.divTarj .aEstilo {
+  text-decoration: none;
+  color: black;
+}
+
+.divTarj .aEstilo:hover {
+  text-decoration: underline;
+}
+
+.ulTarj {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.ulTarj .liTit {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 22px;
+  padding: 6px;
+}
+
+.ulTarj .liP {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+}
+
+.ulTarj .liN {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+}
+
+.ulTarj .precio {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.contenidoCarrito {
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.carTit {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 20px 0px 20px 0px;
+  border-bottom: 1px solid black;
+}
+
+.prodTit {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+/*-------------------------FORMULARIO-------------------------*/
+.formMar {
+  margin-top: 120px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .tit {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+.container .relle {
+  font-size: 16px;
+  font-family: 'Titillium Web', sans-serif;
+  text-decoration: underline;
+}
+
+.container .form-label {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.container .divBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.titFaq {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 32px;
+  margin-bottom: 64px;
+  text-decoration: underline;
+}
+
+.accordion-button {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #545454;
+  color: white;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.articulos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.articulos .divDesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.articulos .divDesc img {
+  padding: 20px;
+  background-color: white;
+  width: 370px;
+  height: 560px;
+}
+
+.articulos .divDesc .ulPlant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0px;
+  padding: 20px;
+  background-color: white;
+  width: 765px;
+  height: 560px;
+}
+
+.articulos .divDesc .ulPlant .listTit {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.articulos .divDesc .ulPlant .liAut {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.articulos .divDesc .ulPlant .liSin {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.articulos .btnCarro {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 32px;
+}
+
+.articulos .btnCarro .btn-primary {
+  border: 0px;
+  padding: 15px 30px 15px 30px;
+}
+/*# sourceMappingURL=estilo.css.map */

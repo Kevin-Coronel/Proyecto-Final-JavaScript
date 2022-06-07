@@ -1,0 +1,56 @@
+
+.divLogo{
+    display: flex;
+    justify-content: center;
+}
+
+.divLogo img{
+    justify-items: center;
+    width: 220px;
+    height: 220px;
+}
+
+.h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 32px;
+}
+
+.ul{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 16px 0px 0px 0px;
+    margin: 0px;
+
+    a{
+        color: black;
+        text-decoration: none;
+        align-self: center;
+    }
+}
+
+.liNav{
+    padding: 12px;
+}
+
+.liNav:hover{
+    background-color: #FFF9C9;
+}
+
+
+
+a:hover{
+    color: black;
+
+}
+
+button:not(:disabled){
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}

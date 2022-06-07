@@ -1,0 +1,132 @@
+main{
+    background-color: #f5eca99d;
+    margin: 32px 0px 32px 0px;
+    padding: 64px 0px 64px 0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.banner{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 60px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    display: inline-block;
+    text-align: center;
+
+        img{
+            align-self: center;
+            width: auto; 
+            height: 500px;
+        }
+    
+
+    .centrado{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(212, 208, 169);
+        font-family: 'Smooch', cursive;
+        font-size: 55px;
+        -webkit-text-stroke: 1px black;
+    }
+}
+
+.titProd{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 32px;
+    margin-bottom: 64px;
+    text-decoration: underline;
+}
+
+.tarjD{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.divTarj{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type:none;
+    padding: 20px;
+    padding-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+
+    .aEstilo{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .aEstilo:hover{
+        text-decoration: underline;
+    }
+}
+
+.ulTarj{
+    padding: 0px;
+    list-style-type: none;
+
+    .liTit{
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 22px;
+        padding: 6px;
+    }
+    
+    .liP{
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 16px;
+    }
+    
+    .liN{
+        text-align: center;
+        font-family:'Titillium Web', sans-serif;
+        font-size: 14px;
+    }
+
+    .precio{
+        text-align: center;
+        font-family:'Titillium Web', sans-serif;
+        font-weight: 900;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+}
+
+.btn{
+    margin-bottom: 10px;
+}
+
+.contenidoCarrito{
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.carTit{
+    font-family:'Titillium Web', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+    border-bottom:1px solid black ;
+}
+
+.prodTit{
+    font-family:'Titillium Web', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+
+/*-------------------------FORMULARIO-------------------------*/
+.formMar{
+    margin-top: 120px;
+}

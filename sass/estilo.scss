@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch&family=Titillium+Web:wght@400;600&display=swap');
+@import "layout/header";
+@import "layout/footer";
+@import "body-pages/home";
+@import "body-pages/contactanos";
+@import "body-pages/faq";
+@import "body-pages/plantProd";
